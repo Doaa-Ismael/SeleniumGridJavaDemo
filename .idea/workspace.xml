@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e55a2b97-c070-4ac8-81d8-b63d251bd350" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bhzyh4rblKYbTEu74ZsfKNLVM4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.splitter.proportion" value="0.09337348" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SeleniumGrid.actualTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seleniumGridDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumGrid" />
+      <option name="METHOD_NAME" value="actualTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SeleniumGrid.actualTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e55a2b97-c070-4ac8-81d8-b63d251bd350" name="Default Changelist" comment="" />
+      <created>1589099369642</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589099369642</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Project_Structure" timestamp="1589099926565">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1589099926565" />
+    <state width="1398" height="321" key="GridCell.Tab.0.bottom" timestamp="1589238368752">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="321" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589238368752" />
+    <state width="1398" height="341" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589103068105" />
+    <state width="1398" height="321" key="GridCell.Tab.0.center" timestamp="1589238368750">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="321" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589238368750" />
+    <state width="1398" height="341" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589103068103" />
+    <state width="1398" height="321" key="GridCell.Tab.0.left" timestamp="1589238368750">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="321" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589238368750" />
+    <state width="1398" height="341" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589103068100" />
+    <state width="1398" height="321" key="GridCell.Tab.0.right" timestamp="1589238368751">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="321" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589238368751" />
+    <state width="1398" height="341" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589103068104" />
+    <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1589100503617">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="258" y="112" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1589100503617" />
+    <state x="221" y="63" key="SettingsEditor" timestamp="1589102190224">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1589102190224" />
+    <state x="95" y="96" width="1304" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1589238329846">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="95" y="96" width="1304" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1589238329846" />
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1589237778272">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1589237778272" />
+  </component>
+</project>
