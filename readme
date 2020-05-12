@@ -1,0 +1,9 @@
+start hub
+
+start 2 nodes
+
+start 2 appium servers
+
+run tests
+
+
