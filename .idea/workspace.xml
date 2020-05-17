@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e55a2b97-c070-4ac8-81d8-b63d251bd350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nodeconfig-ios.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selenium-server-standalone-3.141.59.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AndroidTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nodeconfig-android1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/nodeconfig-android1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nodeconfig-android2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/nodeconfig-android2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AndroidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AndroidTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AndroidTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AndroidTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumGrid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumGrid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +26,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1bhzyh4rblKYbTEu74ZsfKNLVM4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,10 +44,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.09337348" />
   </component>
   <component name="RecentsManager">
@@ -52,24 +55,26 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in seleniumGridDemo">
-    <configuration name="All in seleniumGridDemo" type="JUnit" factoryName="JUnit" singleton="false" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SeleniumGrid.testAll">
+    <configuration name="AndroidTest2" type="JUnit" factoryName="JUnit" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="seleniumGridDemo" />
       <useClassPathOnly />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AndroidTest2" />
       <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
+      <fork_mode value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AndroidTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AndroidTest2.testAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumGridDemo" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AndroidTest2" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testAll" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,40 +91,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AndroidTest.testAndroid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AndroidTest2.testAndroid2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumGridDemo" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AndroidTest" />
-      <option name="METHOD_NAME" value="testAndroid" />
+      <option name="MAIN_CLASS_NAME" value="AndroidTest2" />
+      <option name="METHOD_NAME" value="testAndroid2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOSTest.testIOS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumGrid.testAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumGridDemo" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IOSTest" />
-      <option name="METHOD_NAME" value="testIOS" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumGrid" />
+      <option name="METHOD_NAME" value="testAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in seleniumGridDemo" />
-      <item itemvalue="JUnit.AndroidTest.testAndroid" />
       <item itemvalue="JUnit.AndroidTest2" />
       <item itemvalue="JUnit.AndroidTest2.testAndroid" />
-      <item itemvalue="JUnit.IOSTest.testIOS" />
+      <item itemvalue="JUnit.AndroidTest2.testAndroid2" />
+      <item itemvalue="JUnit.AndroidTest2.testAll" />
+      <item itemvalue="JUnit.SeleniumGrid.testAll" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in seleniumGridDemo" />
-        <item itemvalue="JUnit.AndroidTest.testAndroid" />
-        <item itemvalue="JUnit.AndroidTest2.testAndroid" />
-        <item itemvalue="JUnit.IOSTest.testIOS" />
+        <item itemvalue="JUnit.SeleniumGrid.testAll" />
+        <item itemvalue="JUnit.AndroidTest2.testAndroid2" />
+        <item itemvalue="JUnit.AndroidTest2.testAll" />
         <item itemvalue="JUnit.AndroidTest2" />
+        <item itemvalue="JUnit.AndroidTest2.testAndroid" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +139,19 @@
       <option name="presentableId" value="Default" />
       <updated>1589099369642</updated>
     </task>
+    <task id="LOCAL-00001" summary="tests working fine ( next step is to run parallel from cmd)">
+      <created>1589254508547</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589254508547</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tests working fine ( next step is to run parallel from cmd)" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests working fine ( next step is to run parallel from cmd)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="286" y="107" key="#AndroidTest.testAndroid" timestamp="1589253376435">
@@ -145,74 +162,107 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="286" y="107" key="#AndroidTest2.testAndroid/0.0.1440.900@0.0.1440.900" timestamp="1589244724289" />
-    <state x="320" y="115" key="#Project_Structure" timestamp="1589099926565">
+    <state x="320" y="115" key="#Project_Structure" timestamp="1589749549750">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1589099926565" />
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589254321438">
+    <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1589749549750" />
+    <state x="256" y="135" width="1046" height="765" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589745816572">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1589254321438" />
+    <state x="256" y="135" width="1046" height="765" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1589745816572" />
     <state x="443" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589253191943">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="443" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1589253191943" />
-    <state width="1398" height="271" key="GridCell.Tab.0.bottom" timestamp="1589254421544">
+    <state x="457" y="233" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1589254824024">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589254421544" />
-    <state width="1398" height="321" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589243133806" />
-    <state width="1398" height="271" key="GridCell.Tab.0.center" timestamp="1589254421543">
+    <state x="457" y="233" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1589254824024" />
+    <state x="510" y="253" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589681862647">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589254421543" />
-    <state width="1398" height="321" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589243133805" />
-    <state width="1398" height="271" key="GridCell.Tab.0.left" timestamp="1589254421542">
+    <state x="510" y="253" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1589681862647" />
+    <state x="340" y="52" key="CommitChangelistDialog2" timestamp="1589254508362">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589254421542" />
-    <state width="1398" height="321" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589243133805" />
-    <state width="1398" height="271" key="GridCell.Tab.0.right" timestamp="1589254421544">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="340" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1589254508362" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1589749225358">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589254421544" />
-    <state width="1398" height="321" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589243133806" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1589254031203">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="271" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589749180789" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589749225358" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1589749225357">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589254031203" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1589254031202">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="271" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589749180787" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589749225357" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1589749225356">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1589254031202" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1589254031201">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="271" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589749180786" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589749225356" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1589749225358">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1589254031201" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1589254031202">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="271" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589749180788" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589749225358" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1589749225773">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1589254031202" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589665526760" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589749225773" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1589749225772">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1589665526759" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1589749225772" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1589749225772">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1589665526758" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1589749225772" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1589749225773">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1589665526760" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1589749225773" />
     <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1589100503617">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="258" y="112" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1589100503617" />
-    <state x="221" y="63" key="SettingsEditor" timestamp="1589102190224">
+    <state x="221" y="63" width="1012" height="722" key="SettingsEditor" timestamp="1589682686900">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1589102190224" />
+    <state x="221" y="63" width="1012" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1589682686900" />
     <state x="95" y="75" width="1304" height="719" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1589249087533">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="95" y="75" width="1304" height="719" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1589249087533" />
     <state x="95" y="96" width="1304" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1589238329846" />
-    <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1589237778272">
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1589749530681">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1589748494759" />
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1589749530681" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1589749017581">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1589237778272" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1589242802283">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1589242802283" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1589749017581" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/AndroidTest2.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SeleniumGrid.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

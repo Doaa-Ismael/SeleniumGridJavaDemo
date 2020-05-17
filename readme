@@ -1,9 +1,14 @@
-start hub
+this is a demo example to run paralle e2e tests using appium framework for e2e and selenium grid for parallelism
 
-start 2 nodes
+steps to run:
+1) start selenium grid hub
+java -jar src/selenium-server-standalone-3.141.59.jar -role hub
+2) start tow selenium grid nodes
+java -jar src/selenium-server-standalone-3.141.59.jar -role node -nodeConfig src/nodeconfig-android1.json  -hub http://localhost:4444/grid/register
+java -jar src/selenium-server-standalone-3.141.59.jar -role node -nodeConfig src/nodeconfig-android2.json  -hub http://localhost:4444/grid/register
+3) start two emulators/devices
+4) start two appium servers
+appium -p 4723 --nodeconfig src/nodeconfig-android1.json --default-capabilities '{"udid":"emulator-5554"}'
+appium -p 4724 --nodeconfig src/nodeconfig-android2.json --default-capabilities '{"udid":"emulator-5556"}'
 
-start 2 appium servers
-
-run tests
-
-
+Note: update emulators names and udid in nodeConfigFiles and in starting appium servers

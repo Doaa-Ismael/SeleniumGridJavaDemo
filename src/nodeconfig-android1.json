@@ -7,7 +7,7 @@
       "maxInstances": 1,
       "platformName": "Android",
       "automationName": "UiAutomator2",
-      "deviceName": "Pixel_ASHTAR_HPEmulator"
+      "deviceName": "Pixel2"
     }
   ],
     "cleanUpCycle":2000,
